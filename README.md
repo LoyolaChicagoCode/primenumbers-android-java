@@ -42,7 +42,7 @@ The underlying links invoke the corresponding web service on the number.
 
 # A Tale of Two AsyncHttpClients
 
-Do not use [this AsyncHttpClient](http://sonatype.github.io/async-http-client) in Android.
+Do not use [this AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)in Android.
 It will throw the infamous `android.os.NetworkOnMainThreadException` without explicit configuration
 and has an unnecessary dependency on non-Android logging (slf4j).
 
