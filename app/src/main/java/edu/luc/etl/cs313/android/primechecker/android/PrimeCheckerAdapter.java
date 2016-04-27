@@ -29,9 +29,9 @@ public class PrimeCheckerAdapter extends Activity {
 
     private final TextView[] urls = new TextView[NUM];
 
-    private final List<AsyncTask<Long, Integer, Boolean>> localTasks = new ArrayList<AsyncTask<Long, Integer, Boolean>>(NUM);
+    private final List<AsyncTask<Long, Integer, Boolean>> localTasks = new ArrayList<>(NUM);
 
-    private final List<PrimeCheckerRemoteTask> remoteTasks = new ArrayList<PrimeCheckerRemoteTask>(NUM);
+    private final List<PrimeCheckerRemoteTask> remoteTasks = new ArrayList<>(NUM);
 
     @Override
     public void onCreate(final Bundle savedInstanceState) {
